@@ -1,0 +1,21 @@
+_archive/
+debug/
+.vscode/
+exports/*
+__pycache__/
+data/*
+.idea
+.ipynb_checkpoints
+expresults/*
+tmux-*.log
+wandb/
+*.pt
+*.npz
+figures/*
+data_old/
+
+# Keep the gitkeep files.
+!**/*.gitkeep
+!expresults/LOGL0-v3.jsonl
+!expresults/LOGL0-v2.jsonl
+!expresults/LMIN0-v1.jsonl
