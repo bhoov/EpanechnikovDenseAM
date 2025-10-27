@@ -267,3 +267,4 @@ def plot_basin_merging_analysis():
 fig, minima_data = plot_basin_merging_analysis()
 plt.show()
 fig.savefig('figures/AKEM_all_kernel_emergence.png', dpi=300, bbox_inches='tight')
+# %%
