@@ -122,6 +122,7 @@ for i, beta_pair in enumerate(betas_epa_lse):
 plt.tight_layout()
 plt.show()
 
+fig.savefig("figures/fig1_1d.png", dpi=200)
 #%% 2D case
 
 negy = 2 * np.cos(np.pi/6)
@@ -230,5 +231,5 @@ for iax, (ax, config) in enumerate(zip(axes, configs)):
 plt.tight_layout()
 plt.show()
 
-fig.savefig("figures/1d2d.png", dpi=200)
+fig.savefig("figures/fig1_2d.png", dpi=200)
 # %%
