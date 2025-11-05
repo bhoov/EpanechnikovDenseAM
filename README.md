@@ -2,11 +2,18 @@
 
 > Code and experiments accompanying the paper of the same name, accepted as a **spotlight🥇** to NeurIPS 2025
 
-<div align="center">
+<figure align="center">
   <img src="https://raw.githubusercontent.com/bhoov/EpanechnikovDenseAM/refs/heads/main/assets/big-epa-thumbnail.png"
   alt="Dense Associative Memory with Epanechnikov Energy" width="800"/>
+  <figcaption style="text-align: left; color: #6b7280; font-size: 0.9em; max-width: 800px; margin: 0.5em auto; padding: 0 1em;">
+    We propose a novel energy function for Dense Associative Memory (DenseAM) networks, the log-sum-ReLU (LSR), inspired by optimal kernel density estimation. Unlike the common log-sum-exponential (LSE) function, LSR is based on the Epanechnikov kernel and enables exact memory retrieval with exponential capacity without requiring exponential separation functions. Moreover, it introduces abundant additional emergent local minima while preserving perfect pattern recovery — a characteristic previously unseen in DenseAM literature. Empirical results show that LSR energy has significantly more local minima (memories) that have comparable log-likelihood to LSE-based models. Analysis of LSR’s emergent memories on image datasets reveals a degree of creativity and novelty, hinting at this method’s potential for both large-scale memory storage and generative tasks.
+  </figcaption>
+</figure>
 
-We propose a novel energy function for Dense Associative Memory (DenseAM) networks, the log-sum-ReLU (LSR), inspired by optimal kernel density estimation. Unlike the common log-sum-exponential (LSE) function, LSR is based on the Epanechnikov kernel and enables exact memory retrieval with exponential capacity without requiring exponential separation functions. Moreover, it introduces abundant additional emergent local minima while preserving perfect pattern recovery — a characteristic previously unseen in DenseAM literature. Empirical results show that LSR energy has significantly more local minima (memories) that have comparable log-likelihood to LSE-based models. Analysis of LSR’s emergent memories on image datasets reveals a degree of creativity and novelty, hinting at this method’s potential for both large-scale memory storage and generative tasks.
+<div align="center">
+  <img src=""
+  alt="Dense Associative Memory with Epanechnikov Energy" width="800"/>
+
 </div>
 
 ## Getting Starte
