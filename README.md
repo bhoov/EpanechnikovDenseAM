@@ -1,6 +1,8 @@
 # Dense Associative Memory with Epanechnikov Energy
 > Code and experiments accompanying the paper of the same name, accepted as a spotlight🥇 to NeurIPS 2025
 
+![Novel generation in formal memories](https://raw.githubusercontent.com/bhoov/EpanechnikovDenseAM/refs/heads/main/figures/epa-thumbnail.png)
+
 ## Getting Started
 
 ([install uv](https://docs.astral.sh/uv/getting-started/installation/), if needed)
@@ -99,4 +101,17 @@ Output figures are saved to `figures/QBVAE--mnist10-mem-retrieval/*.png"
 
 ```
 uv run python QBVAE3_latent_mem_retrieval.py tinyimagenet256
+```
+
+## Cite our work
+
+```
+@inproceedings{
+hoover2025dense,
+title={Dense Associative Memory with Epanechnikov Energy},
+author={Benjamin Hoover and Zhaoyang Shi and Krishna Balasubramanian and Dmitry Krotov and Parikshit Ram},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=ZbQ5Zq3zA3}
+}
 ```
