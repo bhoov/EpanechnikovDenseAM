@@ -49,9 +49,11 @@ uv run python launch_LOGL0.py # Output data is saved in `expresults/LOGL0.jsonl`
 
 uv run python eval_LOGL0.py # Output figures are saved in `figures/LOGL0__*.png`
 # uv run python eval_LOGL0.py --dataf expresults/LOGL0_test.jsonl # for small test run
+
+uv run python eval_LOGL0_poster.py # Output figures saved in `figures/LOGL0poster*.svg`
 ```
 
-### Characterize **A**ll **K**ernel **EM**ergence behavior [AKEM]
+### Characterize **A**ll **K**ernel **EM**ergence behavior (AKEM)
 
 ```
 uv run python exp_AKEM_all_kernel_emergence.py
@@ -59,4 +61,16 @@ uv run python exp_AKEM_all_kernel_emergence.py
 
 Output saved to `figures/AKEM_all_kernel_emergence.png`.
 
+### **B**ig **STO**rage and Emergence in MNIST (BSTOR)
 
+```
+uv run python BSTOR_big_mnist_store.py
+```
+
+Output figures saved in `figures/BSTOR*.png`
+
+### **P**i**X**e**L** **E**mergence (PXLE)
+
+```
+uv run python PXLE_pixel_emergence.py # Outputs saved to `figures/PXLE*.png`
+```
