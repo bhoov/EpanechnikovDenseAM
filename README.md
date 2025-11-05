@@ -74,3 +74,29 @@ Output figures saved in `figures/BSTOR*.png`
 ```
 uv run python PXLE_pixel_emergence.py # Outputs saved to `figures/PXLE*.png`
 ```
+
+### Qualitative latent emergence with VAEs (QBVAE)
+
+We use two different techniques for two datasets:
+
+1. MNIST -- we train our own VAE 
+2. Tiny Imagenet -- we use a pretrained VAE that is used as the encoder/decoder of standard diffusion models.
+
+
+**MNIST**
+
+Train and evaluate the model. Pretty fast process
+
+```
+uv run accelerate launch --mixed_precision="fp16" QBVAE1_training.py mnist10
+uv run python QBVAE3_latent_mem_retrieval.py mnist10
+```
+
+The trained model is default saved and loaded to folder `expresults/QBVAE--beta-vae-mnist10.pt`.
+Output figures are saved to `figures/QBVAE--mnist10-mem-retrieval/*.png"
+
+**Tiny Imagenet**
+
+```
+uv run python QBVAE3_latent_mem_retrieval.py tinyimagenet256
+```
