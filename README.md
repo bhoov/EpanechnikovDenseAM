@@ -1,7 +1,7 @@
 # Dense Associative Memory with Epanechnikov Energy
 > Code and experiments accompanying the paper of the same name, accepted as a spotlight🥇 to NeurIPS 2025
 
-![Novel generation in formal memories](https://raw.githubusercontent.com/bhoov/EpanechnikovDenseAM/refs/heads/main/figures/epa-thumbnail.png)
+![Novel generation in formal memories](https://raw.githubusercontent.com/bhoov/EpanechnikovDenseAM/refs/heads/main/assets/epa-thumbnail.png)
 
 ## Getting Started
 
