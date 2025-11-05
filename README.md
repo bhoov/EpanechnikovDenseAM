@@ -10,13 +10,7 @@
   </figcaption>
 </figure>
 
-<div align="center">
-  <img src=""
-  alt="Dense Associative Memory with Epanechnikov Energy" width="800"/>
-
-</div>
-
-## Getting Starte
+## Getting Started
 
 ([install uv](https://docs.astral.sh/uv/getting-started/installation/), if needed)
 
